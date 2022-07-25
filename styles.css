@@ -54,9 +54,7 @@
     font-size: 30px;
 
 }
-.hero-section-input{
-    margin: 0 0 50px;
-}
+
 .hero-section-input{
     background: white;
     padding: 10px;
@@ -67,6 +65,7 @@
     justify-content: center;
     width: 47%;
     height: 53px;
+    margin: 0 0 50px;
 
 
     
@@ -131,21 +130,32 @@
     .hero-container{
         height: calc(75vh - 60px);
     }
+    .hero-section-logo{
+        width: 150px;  
+    }
+    .hero-section-title{
+        font-weight: 400;
+        text-align: center;
+        font-size: 22px;
+    
+    }
     .hero-section-input{
            
            flex-direction: column;
-           background: transparent;
+           background: none;
            gap: 15px;
-           width: 95%;
+           width: 97%;
+           margin-top: 50px;
     }
-    .input-type-location,
+   .input-type-location,
    .input-type-search{
     border: none;
     outline: none;
     /* width: 100%; */
-    padding: 10px;
+    padding: 15px;
     width: 100%;
-    border-radius: 5px;
-    
+    /* height: 500px; */
+    border-radius: 10px;  
 }
+
 }
