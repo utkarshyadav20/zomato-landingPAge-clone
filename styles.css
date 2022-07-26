@@ -98,6 +98,12 @@
     filter: invert(51%) sepia(0%) saturate(1%) hue-rotate(241deg) brightness(99%) contrast(88%);
     left: 42.5%;
 }
+.drop-down{
+    position: absolute;
+    width: 12px;
+    filter: invert(30%) sepia(46%) saturate(11%) hue-rotate(335deg) brightness(93%) contrast(100%);
+    left: 39%;
+}
 
 
 
@@ -178,6 +184,13 @@
     filter: invert(51%) sepia(0%) saturate(1%) hue-rotate(241deg) brightness(99%) contrast(88%);
     left: 4.5%;
     top: 95%;
+}
+.drop-down{
+    position: absolute;
+    width: 12px;
+    filter: invert(30%) sepia(46%) saturate(11%) hue-rotate(335deg) brightness(93%) contrast(100%);
+    top: -31%;
+    left: 91%;
 }
 
 }
