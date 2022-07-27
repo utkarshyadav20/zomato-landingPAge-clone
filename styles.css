@@ -120,6 +120,7 @@
     border-radius: 14px;
     border: 1px solid  #e0e0e0;
     width: 350px;
+    transition: opacity 0.25s ease 0s, transform .25s ease 0s;
 }
 .we-offer .cards img{
    width: 350px;
@@ -131,13 +132,18 @@
     padding: 10px 10px 0px 20px;
     font-size: 20px;
     color: #363636;
-    font-weight: 420;
+    font-weight: 400;
 }
 .we-offer .cards p{
     padding: 0 10px 20px 20px;
     font-size: 16px;
     color: #363636;
-    font-weight: 330;
+    font-weight: 320;
+}
+.we-offer .cards:hover{
+    transform: scale(1.05);
+    
+
 }
 
 
