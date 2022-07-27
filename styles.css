@@ -104,7 +104,41 @@
     filter: invert(30%) sepia(46%) saturate(11%) hue-rotate(335deg) brightness(93%) contrast(100%);
     left: 39%;
 }
-
+.container {
+    margin: 3rem auto;
+    width: 80%;
+}
+.we-offer{
+   display: flex;
+   gap: 15px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content:center;
+}
+.we-offer .cards{
+    overflow: hidden;
+    border-radius: 14px;
+    border: 1px solid  #e0e0e0;
+    width: 350px;
+}
+.we-offer .cards img{
+   width: 350px;
+   object-fit: cover;
+   object-position: center;
+   height: 140px;
+}
+.we-offer .cards h2{
+    padding: 10px 10px 0px 20px;
+    font-size: 20px;
+    color: #363636;
+    font-weight: 420;
+}
+.we-offer .cards p{
+    padding: 0 10px 20px 20px;
+    font-size: 16px;
+    color: #363636;
+    font-weight: 330;
+}
 
 
 
