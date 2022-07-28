@@ -142,9 +142,53 @@
 }
 .we-offer .cards:hover{
     transform: scale(1.05);
-    
-
 }
+.our-collections h1{
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #1c1c1c;
+}
+.our-collections .sub-head{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+    align-items: centre;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.sub-head span:nth-child(2){
+    color: rgb(255, 126, 139);
+}
+/* .our-collections .sub-head .additional-sub-head{
+    color: rgb(255, 126, 139);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -231,6 +275,40 @@
     filter: invert(30%) sepia(46%) saturate(11%) hue-rotate(335deg) brightness(93%) contrast(100%);
     top: -31%;
     left: 91%;
+}
+.container {
+    margin: 3rem auto;
+    width: 100%;
+}
+.we-offer{
+    display: flex;
+    gap: 15px;
+     flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+ }
+.we-offer .cards{
+    width: 156px;
+    /* height: 210px; */
+}
+.we-offer .cards img{
+    width: 156px;
+    /* height: 170px; */
+}
+.we-offer .cards h2{
+    /* padding: 10px 10px 0px 20px; */
+    font-size: 14px;
+    /* color: #363636;
+    font-weight: 400; */
+}
+.we-offer .cards p{
+    /* padding: 0 10px 20px 20px; */
+    font-size: 12px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* color: #363636;
+    font-weight: 320; */
 }
 
 }
