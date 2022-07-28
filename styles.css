@@ -160,12 +160,33 @@
 }
 
 .sub-head span:nth-child(2){
-    color: rgb(255, 126, 139);
+    color: rgb(255, 126, 139);  
+    font-size: 17px;
+    padding: 3px;       /*creative method to do the same thing*/
 }
 /* .our-collections .sub-head .additional-sub-head{
     color: rgb(255, 126, 139);
 } */
+.our-collection-card-container{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    
+}
+.our-collection-card-container .card{
+    height: 300px;
+    min-width: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
 
+}
+.card1{
+    background-image: url(images/collection1.jpg);
+}
 
 
 
