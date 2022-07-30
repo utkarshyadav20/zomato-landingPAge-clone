@@ -251,6 +251,9 @@
     left: 105%;
     transform: rotate(-90deg);
 }
+.popular-places{
+    margin-top: 100px;
+}
 .famous-head{
       margin-left: 5%;
       font-size: 40px;
