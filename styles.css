@@ -251,8 +251,94 @@
     left: 105%;
     transform: rotate(-90deg);
 }
-
-
+.famous-head{
+      margin-left: 5%;
+      font-size: 40px;
+      color: #363636;
+      /* line-height: 1.2; */
+}
+.head-places{
+    font-weight: 300;
+}
+.head-places-meerut{
+    display: inline;
+    font-weight: 400;
+    flex-wrap: wrap;
+    font-size: 41px;
+}
+.famous-place{
+    display: flex;
+    margin-left: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 0px 10px 15px 0px;
+}
+.famous-place-card{
+    height: 85px;
+    min-width: 25%;
+    width: 366px;
+    border: 2px solid rgb(232,232,232);
+    border-radius: 10px;
+    padding: 15px 0 0 15px;
+    position: relative;
+    box-shadow: 5px blue;
+    
+}
+.card-head{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(28, 28, 28);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 0 5px 0;
+}
+.crad-para{
+    font-weight: 300;
+    /* padding: 0 0 15px 0; */
+    position: absolute;
+    top: 47px;
+    bottom: 0px;
+    
+}
+.card-head1{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(28, 28, 28);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 33%;
+}
+.chevron-right-solid{
+    position: absolute;
+    width: 6px;
+    justify-content: center;
+    align-items: center;
+    top: 46%;
+    left: 90%;
+    
+}
+.chevron-right-solid1{
+    position: absolute;
+    width: 6px;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 64%;
+    transform: rotate(90deg);
+    
+}
+.famous-place-card:hover{
+    cursor: pointer;
+    box-shadow: rgb(28 28 28 / 8%) 0px 4px 8px;
+}
 
 
 
