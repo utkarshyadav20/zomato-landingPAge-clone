@@ -348,25 +348,99 @@
 }
 .play-store-body{
     display: flex;
-    padding: 83px ;          /*do here*/
+    gap: 50px; 
+    height: 500px;
+    background-color: rgb(255, 251, 247);
+     padding: 83px ;
+     padding-left: 22%;         
 }
 .mobile-banner {
-    width: 270px;
+    width: 300px;
     object-fit: cover;
     object-position: center;
+    padding: 20px;
 
 }
 .play-store-form{
    max-width: 500px;
+   max-height: 100px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   
 
+}
+.play-store-head{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
 }
 .play-store-head h2{
   font-size: 44px;
   font-weight: 500;
+  color: rgb(28, 28, 28);
   
+
 }
 .play-store-head p{
+    color: rgb(54, 54, 54);
+}
+.radio-button-container{
+    display: flex;
+    gap: 50px;
+}
+.google-play-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.radio-phone{
+    display: flex;
+    gap: 10px;
+}
+.radio-email{
+    display: flex;
+    gap: 10px;
+}
+.input-field{
+   display: flex;
+   gap: 10px;
+}
+.input-field input{
+    padding: 13px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(207,207,207);
+    background-color: rgb(255,255,255);
 
+}
+.input-field input::placeholder{
+    font-size: 17px;
+    font-weight: 200;
+}
+.input-field label{
+    padding: 13px;
+    width: fit-content;
+    background: rgb(239, 79, 95);
+    color:white;
+    border-radius: 5px;
+    font-weight: 200;
+
+}
+.input-field label:hover{
+    cursor: pointer;
+    background: rgb(209, 62, 77);
+}
+.google-play-logo p{
+    color: rgb(156,156,156);
+    font-size: 15px;
+}
+input[name=details]{
+    accent-color: rgb(239, 79, 95);
+}
+.apple-logo{
+    display: flex;
+    gap: 20px;
 }
 
 
