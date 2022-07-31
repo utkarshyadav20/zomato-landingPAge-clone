@@ -342,6 +342,34 @@
     cursor: pointer;
     box-shadow: rgb(28 28 28 / 8%) 0px 4px 8px;
 }
+.play-store{
+    /* background: purple; */
+    height: 500px;
+}
+.play-store-body{
+    display: flex;
+    padding: 83px ;          /*do here*/
+}
+.mobile-banner {
+    width: 270px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.play-store-form{
+   max-width: 500px;
+
+}
+.play-store-head h2{
+  font-size: 44px;
+  font-weight: 500;
+  
+}
+.play-store-head p{
+
+}
+
+
 
 
 
