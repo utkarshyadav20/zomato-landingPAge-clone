@@ -8,7 +8,7 @@
     color: white;
 }
 .hero-section{
-    background: url(/images/heroSectionBackground.png);
+    background: url(images/heroSectionBackground.png);
     color: white;
     min-height:60vh ;
     background-position: center;
