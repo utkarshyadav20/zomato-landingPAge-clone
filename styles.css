@@ -246,7 +246,7 @@
 .drop-rightPlaces{
     position: absolute;
     width: 12px;
-    filter: invert(99%) sepia(36%) saturate(177%) hue-rotate(179deg) brightness(114%) contrast(100%);;
+    filter: invert(99%) sepia(36%) saturate(177%) hue-rotate(179deg) brightness(114%) contrast(100%);
     top: 0%;
     left: 105%;
     transform: rotate(-90deg);
@@ -478,7 +478,70 @@ input[name=details]{
    left: 97%;
    transform: rotate(90deg);
 }
-
+.footer{
+    margin-left:10%;
+    margin-right: 14%;
+    /* background: #363636; */
+    padding-bottom: 48px;
+    
+}
+.footer-box{
+    background: rgb(248,248,248);
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top:48px ;
+    padding-bottom: 48px;
+}
+.footer-logo img{
+    width: 9.42rem;
+    height: 2rem;
+}
+.flag{
+    display: flex;
+    gap: 14px;
+    font-size: 18px;
+}
+.flag span{
+   background: white;
+   padding: 5px 38px;
+   border-radius: 5px;
+   border: 1px solid rgb(181,181,181);
+}
+.sub-head{
+    display: flex;
+    justify-content: space-between;
+    padding-right:5% ;
+}
+.sub-head-content h5{
+      padding-bottom: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #000000;
+}
+.sub-head-content p{
+    color: #696969;
+    font-size: 14px;
+    font-weight: 300;
+}
+.sub-head-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.sub-head-content img{
+    width: 140px;
+    padding-bottom: 15px;
+}
+.insta-logo{
+    display: flex;
+    width: 30px;
+    gap: 10px;
+    border-radius: 20px;
+    filter: ;
+    
+}
 
 
 
