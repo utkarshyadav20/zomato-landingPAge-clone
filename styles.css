@@ -412,6 +412,7 @@
     border-radius: 5px;
     border: 2px solid rgb(207,207,207);
     background-color: rgb(255,255,255);
+    /* flex: auto; */
 
 }
 .input-field input::placeholder{
@@ -442,8 +443,41 @@
 input[name=details]{
     accent-color: rgb(239, 79, 95);
 }
+.Explore{
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Explore-head p{
+    font-size: 30px;
+    padding: 0 0 20px;
+}
+.ex1{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 18px 24px;
+    border-radius: 10px;
+    border: 1px solid rgb(232,232,232);
+    position: relative;
 
-
+}
+.ex1 h5{
+    font-size:20px;
+    font-weight: 400;
+}
+.ex1:hover{
+    cursor: pointer;
+}
+.chevron-right-popular{
+   position: absolute;
+   width: 8px;
+   /* justify-content: center; */
+   /* align-items: center; */
+   top: 47%;
+   left: 97%;
+   transform: rotate(90deg);
+}
 
 
 
@@ -626,13 +660,14 @@ input[name=details]{
     font-size: 17px;
 }
 .input-field label{
-    width: 80px;
+   max-width: 70px;
     height: 40px;
     font-size: 15px;
     padding-bottom: 31px;
     overflow: hidden;
     text-align: center;
     align-items: center;
+    flex: auto;
     /* white-space: nowrap; */
     text-overflow: ellipsis;
     font-weight: 300;
@@ -643,5 +678,11 @@ input[name=details]{
 .apple-logo{
   justify-content: center; 
    
+}
+.head-places{
+    font-size: 30px;
+}
+.head-places-meerut{
+    font-size: 33px;
 }
 }
