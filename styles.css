@@ -513,6 +513,8 @@ input[name=details]{
     display: flex;
     justify-content: space-between;
     padding-right:5% ;
+    margin-left:10%;
+    margin-right: 14%;
 }
 .sub-head-content h5{
       padding-bottom: 10px;
@@ -538,10 +540,16 @@ input[name=details]{
     display: flex;
     width: 30px;
     gap: 10px;
-    border-radius: 20px;
-    filter: ;
-    
+    border-radius: 20px;  
 }
+.sub-head-play h5{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+ }
+
 
 
 
@@ -748,4 +756,114 @@ input[name=details]{
 .head-places-meerut{
     font-size: 33px;
 }
+.footer-logo{
+    flex-direction: column;
+    gap: 30px;
+}
+.flag{
+    font-size: 14px;
+}
+.flag span{
+    padding: 10px 30px;
+    position: relative;
+    border-radius: 10px;
+}
+.footer{
+    margin-left: 2%;
+    margin-right: 14%;
+    /* background: #363636; */
+    padding-bottom: 35px;
+}
+.footer-box{
+    padding-left:5%;
+    padding-right: 8%;
+    padding-bottom: 40px;
+    
+}
+.footer-logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.footer-logo img:nth-child(1){
+    height: 1.5rem;
+    width: 7.065rem;
+}
+.sub-head-content h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.sub-head-content p{
+    font-size: 14px;
+}
+ .sub-head{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ .sub-head-plays h5{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+ }
+ .social-logo{
+    margin-left: 15%;
+ }
+ .social-logo-sub{
+    width: 30px;
+    display: flex;
+    gap: 20px;
+ }
+ .Social-links{
+    padding-bottom: 20px;
+ }
+ .logo-play{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 15px;
+ }
+ .logo-play img{
+    width: 130px;
+ }
+ .saperation{
+    padding-top: 50px;
+    border-bottom: 1px solid #696969;
+    margin-bottom: 20px;
+ }
+ .end-para{
+    color: rgb(79,79,79);
+    font-size: 12px;
+    text-align: start;
+    font-weight: 300;
+ }
+ .footer-logo img.chevron-right-footer{
+    width: 7px;
+    position: absolute;
+    top: 10%;
+    right: 13%;
+    transform: rotate(90deg);
+ }
+ .footer-logo img.chevron-right-footere{
+    width: 7px;
+    position: absolute;
+    top: 25%;
+    right: 13%;
+    transform: rotate(90deg);
+ }
+ .footer-logo img.globe-flag{
+    width: 18px;
+    position: absolute;
+    top:10%;
+    right:75% ;
+ }
+.footer-logo img.ind-flag{
+   position: absolute;
+   height: 13px;
+   width: 19.5px;
+   left: 7%;
+   top: 35%;
+}
+
 }
