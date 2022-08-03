@@ -585,7 +585,7 @@ input[name=details]{
     color: #000000;
  }
 .sub-head-plays{
-    margin-left:10%;
+    margin-left:0%;
     margin-right: 14%;
     padding-right:14%;
     /* background: #363636; */
@@ -887,7 +887,8 @@ input[name=details]{
  .sub-head{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
+    margin-left: 5%;
  }
  .sub-head-plays h5{
     padding-top: 40px;
@@ -909,6 +910,7 @@ input[name=details]{
  .logo-play{
     display: flex;
     gap: 20px;
+    flex-direction: row;
     justify-content: center;
     padding-top: 15px;
  }
@@ -916,15 +918,20 @@ input[name=details]{
     width: 130px;
  }
  .saperation{
-    padding-top: 50px;
+    padding-top: 20px;
     border-bottom: 1px solid #696969;
     margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
  }
  .end-para{
     color: rgb(79,79,79);
     font-size: 12px;
     text-align: start;
     font-weight: 300;
+    margin-left:0%;
+    margin-right: 0%;
+    
  }
  .footer-logo img.chevron-right-footer{
     width: 7px;
@@ -943,7 +950,7 @@ input[name=details]{
  .footer-logo img.globe-flag{
     width: 18px;
     position: absolute;
-    top:10%;
+    top:30%;
     right:75% ;
  }
 .footer-logo img.ind-flag{
@@ -952,6 +959,11 @@ input[name=details]{
    width: 19.5px;
    left: 7%;
    top: 35%;
+}
+
+.flex-sol{
+    display: flex;
+    flex-direction: column;
 }
 
 }
