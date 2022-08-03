@@ -913,6 +913,7 @@ input[name=details]{
     flex-direction: row;
     justify-content: center;
     padding-top: 15px;
+    padding-left: 22%;
  }
  .logo-play img{
     width: 130px;
