@@ -159,24 +159,28 @@
     /* flex-wrap: wrap; */
     gap: 16px;
 }
-.sub-head span:nth-child(1){
+.sub-head1 span:nth-child(1){
     max-width: 65%;
-    margin-left: 5%;      /*creative method to do the same thing*/
+    margin-left: 5%; 
+     color: rgb(54,54,54);
+     font-weight: 300;  
+     font-size: 17px;        /*creative method to do the same thing*/
 }
 
-.sub-head span:nth-child(2){
+.sub-head1 span:nth-child(2){
     color: rgb(255, 126, 139);  
     font-size: 17px;
     padding: 3px; 
     margin-right: 7%;
-    position: relative;      /*creative method to do the same thing*/
+    position: relative; 
+    font-weight: 300;     /*creative method to do the same thing*/
 }
 .drop-right{
     position: absolute;
     width: 12px;
     filter: invert(54%) sepia(20%) saturate(1188%) hue-rotate(305deg) brightness(108%) contrast(101%);
     top: 21%;
-    left: 105%;
+    left: 104%;
     transform: rotate(-90deg);
 }
 /* .our-collections .sub-head .additional-sub-head{
@@ -546,11 +550,19 @@ input[name=details]{
     margin-left:10%;
     /* margin-right: 14%; */
    /* justify-content: space-between; */
-   gap: 100px;
-  flex-grow: 1;
-   
+   gap: 100px;  
     
 }
+.sub-head1{
+    display: flex;
+    /* padding-right:5% ; */
+    margin-left:0%;
+    /* margin-right: 14%; */
+   /* justify-content: space-between; */
+   gap: 120px;  
+    
+}
+
 .sub-head-content h5{
       padding-bottom: 10px;
       font-size: 16px;
@@ -630,6 +642,7 @@ input[name=details]{
 
 .flex-sol{
     display: flex;
+    gap: 100px;
 }
 .saperation{
     margin-left:10%;
