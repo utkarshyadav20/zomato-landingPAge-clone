@@ -606,7 +606,7 @@ input[name=details]{
 }
 .sub-head-plays{
     /* padding-top: 60px; */
-    margin-right: 10px;
+    margin-right: 2%;
     flex-grow: 1;
 }
 .sub-head-plays h5{
@@ -877,9 +877,13 @@ input[name=details]{
 }
 .footer-box{
     padding-left:5%;
-    padding-right: 8%;
+    padding-right: 5%;
     padding-bottom: 40px;
     
+}
+.Explore {
+  margin-left: 2%;
+ margin-right: 2%;
 }
 .footer-logo{
     padding-top: 20px;
@@ -904,10 +908,13 @@ input[name=details]{
     margin-left: 5%;
  }
  .sub-head-plays h5{
-    padding-top: 40px;
-    text-align: center;
+    padding-left: 40%;
+    /* text-align: center; */
     font-size: 14px;
     font-weight: 400;
+ }
+ .flex-sol{
+  gap: 50px;
  }
  .social-logo{
     margin-left: 25%;
